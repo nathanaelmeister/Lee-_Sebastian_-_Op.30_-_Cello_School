@@ -1,5 +1,5 @@
 # Sebastian Lee
-## Violoncello school; Op.30
+## Violoncello School; Op.30
 
 Including lectures and scales.
 
