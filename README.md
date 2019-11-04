@@ -48,7 +48,7 @@ within the `\score` blog like this:
 }
 ```
 
-The book files are going to be published when a certain amount of pieces is available,  
+The **book** files are going to be published when a certain amount of pieces are available,  
 if you want to compile a book with the present pieces use the `make-book.sh` script as follows:
 
 ```
