@@ -59,7 +59,7 @@ bash make-book.sh
 #compile book*.ly file with lilpond:
 
 lilpond book.ly
-``
+```
 
 typset with: [Lilypond](http://lilypond.org) "2.18.2"  
 also have a look at: [LilyBin](http://lilybin.com)
