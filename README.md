@@ -3,11 +3,12 @@
 
 Including lectures and scales.
 
-There are going to be 3 books:
+There are going to be 4 books:
 
 1. Scales (Though in this edition the original melodic minor scales are going to be replaced by the natural minor scale, also known as the aeolian scale, the sixt degree of the corresponding major scale)
 2. Lectures (The lectures are originally written for two instruments pupil and teacher. The first edition will only contain the first voice)
-3. Scales and Lectures
+3. Techniques
+3. Scales, Lectures and Techniques in one book
 
 While this collection is on growing, it is only providing the single pieces as [lilypond](http://lilypond.org) *.ly files.  
 **PDF** and **MIDI** files are going to be added within the finalization of the collection to prevent a boost of the .git repository.  
@@ -54,11 +55,11 @@ if you want to compile a book with the present pieces use the `make-book.sh` scr
 ```
 #run script in parent directory:
 
-bash make-book.sh
+bash make-book.sh dir/
 
 #compile book*.ly file with lilpond:
 
-lilpond book.ly
+lilpond Book-dir.ly
 ```
 
 typset with: [Lilypond](http://lilypond.org) "2.18.2"  
