@@ -32,4 +32,7 @@
     }
   >>
   \layout {}
+  \header {
+    composer = "Sebastian Lee"
+  }
 }
