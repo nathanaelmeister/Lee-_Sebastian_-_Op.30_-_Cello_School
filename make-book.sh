@@ -1,6 +1,8 @@
 #!/bin/bash
 
-book="book-lectures.ly"
+folder="$1"
+bookdir="Book-${folder}.ly"
+book=$(sed 's/\///g' <<< "$bookdir")
 
 cat << EOF > "$book"
 \version "2.18.2"
@@ -8,7 +10,7 @@ cat << EOF > "$book"
 \book {
 EOF
 
-for file in ./Lectures/*.ly; do
+for file in ./"$folder"/*.ly; do
     echo "  \include \"$file\""
 done >> "$book"
 
