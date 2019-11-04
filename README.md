@@ -32,7 +32,7 @@ lilypond filename.ly
 for i in *.ly; do lilypond $i;done
 ```
 
-If you want to get **MIDI** files, you need to add it behind the `\layout` blog  
+If you want to get **MIDI** files, you need to add a `\midi {}` blog behind the `\layout` blog  
 within the `\score` blog like this:
  
 ```
