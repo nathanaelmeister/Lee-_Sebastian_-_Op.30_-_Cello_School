@@ -5,9 +5,9 @@ Including lectures and scales.
 
 There are going to be 4 books:
 
-1. Scales (Though in this edition the original melodic minor scales are going to be replaced by the natural minor scale, also known as the aeolian scale, the sixt degree of the corresponding major scale)
-2. Lectures (The lectures are originally written for two instruments pupil and teacher. The first edition will only contain the first voice)
-3. Techniques
+1. **Scales** (Though in this edition the original melodic minor scales are going to be replaced by the natural minor scale, also known as the aeolian scale, the sixt degree of the corresponding major scale)
+2. **Lectures** (The lectures are originally written for two instruments pupil and teacher. The first edition will only contain the first voice)
+3. **Techniques**
 3. Scales, Lectures and Techniques in one book
 
 While this collection is on growing, it is only providing the single pieces as [lilypond](http://lilypond.org) *.ly files.  
@@ -63,5 +63,5 @@ lilpond Book-dir.ly
 ```
 
 typset with: [Lilypond](http://lilypond.org) "2.18.2"  
-also have a look at: [LilyBin](http://lilybin.com)
-
+you can try it online on: [LilyBin](http://lilybin.com)
+or get support at the offical IRC on [FreeNode](http://webchat.freenode.net/?channels=lilypond)
