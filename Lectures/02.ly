@@ -33,6 +33,6 @@
   \layout {}
   \header {
     composer = "Sebastian Lee"
-    opus = "Op.30"
+    %opus = "Op.30"
   }
 }
