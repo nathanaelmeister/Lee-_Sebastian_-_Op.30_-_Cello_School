@@ -34,7 +34,7 @@
       d f a g           | %21
       f e f d           | %22
       cis e a cis       | %23
-      d' d, d,4 \bar "|." %24
+      d d, d,4 \bar "|."  %24
 
     }
   >>
