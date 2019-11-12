@@ -1,4 +1,5 @@
 Book*.ly
+_scripts/
 _temp/
 *.midi
 *.pdf
