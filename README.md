@@ -33,35 +33,23 @@ lilypond filename.ly
 for i in *.ly; do lilypond $i;done
 ```
 
-If you want to get **MIDI** files, you need to add a `\midi {}` blog behind the `\layout` blog  
-within the `\score` blog like this:
- 
-```
-\score {
-  \new StaffGroup = "" \with {
-        instrumentName = \markup { \bold \huge { \larger "1." }}
-      }
-  <<
-    \new Staff = "celloI" \celloI
-  >>
-  \layout {}
-  \midi {}
-}
-```
+The same applies for **MIDI** files.  
+The `\midi {}` blog is now added to the input files.  
+The `midi instrument` is set to **cello**
 
-The **book** files are going to be published when a certain amount of pieces are available,  
-if you want to compile a book with the present pieces use the `make-book.sh` script as follows:
+For MIDI playback on a linux system you could use `timidity` among many others.
 
-```
-#run script in parent directory:
+`timidity Sebastian_Lee_-_Op_30_-_Nr_{01..10}.midi`  
 
-bash make-book.sh dir/
+would start a playback of the first ten lectures.
 
-#compile book*.ly file with lilpond:
-
-lilpond Book-dir.ly
-```
+_________________________________________________________________________________
 
 typset with: [Lilypond](http://lilypond.org) "2.18.2"  
+
 you can try it online on: [LilyBin](http://lilybin.com)
 or get support at the offical IRC on [FreeNode](http://webchat.freenode.net/?channels=lilypond)
+more Scores in the [LilyPond](http://lilypond.org) format can be found on [www.MutopiaProject.org](https://www.mutopiaproject.org)  
+snippets and tweaks can be found in [The LilyPond Snippet Repository ♪♫](http://lsr.di.unimi.it/LSR/Search) 
+
+
