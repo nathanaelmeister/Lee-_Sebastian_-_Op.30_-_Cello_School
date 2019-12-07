@@ -1,7 +1,11 @@
 # Sebastian Lee
 ## Violoncello School; Op.30
 
-Including lectures (one voice) and scales and technical exercises.
+Including:
+
+- lectures (one voice)
+- scales and
+- technical exercises for bowing and position changes.
 
 There are going to be 4 books:
 
