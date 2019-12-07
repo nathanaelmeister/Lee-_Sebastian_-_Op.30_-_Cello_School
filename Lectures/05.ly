@@ -26,7 +26,7 @@
       a'2 g4 fis   | %13
       g2 fis4 e    | %14
       c4 a fis dis | %15
-      e1 \bar "|."   %16
+      e1 \bar "|." | %16
 
     }
   >>
