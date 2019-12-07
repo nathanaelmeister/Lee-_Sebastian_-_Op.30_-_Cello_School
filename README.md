@@ -1,7 +1,7 @@
 # Sebastian Lee
 ## Violoncello School; Op.30
 
-Including lectures and scales.
+Including lectures (one voice) and scales and technical exercises.
 
 There are going to be 4 books:
 
@@ -48,7 +48,7 @@ ________________________________________________________________________________
 typset with: [Lilypond](http://lilypond.org) "2.18.2"  
 
 you can try it online on: [LilyBin](http://lilybin.com)
-or get support at the offical IRC on [FreeNode](http://webchat.freenode.net/?channels=lilypond)
+or get support at the offical IRC on [FreeNode](http://webchat.freenode.net/?channels=lilypond)  
 more Scores in the [LilyPond](http://lilypond.org) format can be found on [www.MutopiaProject.org](https://www.mutopiaproject.org)  
 snippets and tweaks can be found in [The LilyPond Snippet Repository ♪♫](http://lsr.di.unimi.it/LSR/Search) 
 
