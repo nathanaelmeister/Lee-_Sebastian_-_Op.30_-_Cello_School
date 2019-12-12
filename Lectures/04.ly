@@ -2,10 +2,9 @@
 
 \score {
   \new StaffGroup = "" \with {
-        instrumentName = \markup { \bold \huge { \larger "4." }}
-      }
+    instrumentName = \markup { \bold \huge { \larger "4." }}}
   <<
-    \new Staff = "celloI"  \with { midiInstrument = #"cello" }
+    \new Staff = "celloI" \with { midiInstrument = #"cello" }
     \relative c {
       \clef bass
       \key g \major
@@ -27,8 +26,14 @@
       c, e a c     | %14
       b2 c4 a      | %15
       g2 \bar "|." | %16
+    }
+    \new Staff = "celloII" \with { midiInstrument = #"cello" }
+    \relative c {
+      \clef bass
+      \key g \major
+      \time 4/4
 
-
+      \bar  "|."
     }
   >>
   \layout {}
