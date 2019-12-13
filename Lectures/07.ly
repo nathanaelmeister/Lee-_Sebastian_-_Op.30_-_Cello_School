@@ -30,9 +30,25 @@
     \new Staff = "celloII" \with { midiInstrument = #"cello" }
     \relative c {
       \clef bass
-      \key b \major
+      \key b \minor
       \time 4/4
 
+      R1            | %01
+      R             | %02
+      b2 cis        | %03
+      d4 e d cis    | %04
+      d2 b          | %05
+      fis d         | %06
+      e b'          | %07
+      ais1          | %08
+      r             | %09
+      e2 g          | %10
+      c4 a e cis    | %11
+      d2 b'         | %12
+      cis ais       | %13
+      d b           | %14
+      d,4 e fis ais | %15
+      b1            | %16
       \bar  "|."
     }
   >>

@@ -34,6 +34,22 @@
       \key c \major
       \time 4/4
 
+      c4 g d' g,   | %01
+      e' g, e' g,  | %02
+      d' g, f' g,  | %03
+      e' g, d' g,  | %04
+      c g d' g,    | %05
+      e' g, es' g, | %06
+      d' d, fis d  | %07
+      g b d g      | %08
+      f g, d' g,   | %09
+      e' g, e' g,  | %10
+      d' g, b g    | %11
+      c c e g      | %12
+      c c, bes' c, | %13
+      a' c, f f,   | %14
+      e' g, d' g,  | %15
+      c,1          | %16
       \bar  "|."
     }
   >>

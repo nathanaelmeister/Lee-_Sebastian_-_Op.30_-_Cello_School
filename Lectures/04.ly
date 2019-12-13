@@ -25,7 +25,7 @@
       b,4 d g b    | %13
       c, e a c     | %14
       b2 c4 a      | %15
-      g2 \bar "|." | %16
+      g1 \bar "|." | %16
     }
     \new Staff = "celloII" \with { midiInstrument = #"cello" }
     \relative c {
@@ -33,6 +33,22 @@
       \key g \major
       \time 4/4
 
+      R1         | %01
+      R          | %02
+      a2 fis     | %03
+      g1         | %04
+      e'4 c b g  | %05
+      fis a g b  | %06
+      a2 cis     | %07
+      d4 fis a d | %08
+      c4 a fis2  | %09
+      g4 d b2    | %10
+      c4 a fis2  | %11
+      g4 b d g   | %12
+      g,1        | %13
+      c          | %14
+      d2 d,      | %15
+      g1         | %16
       \bar  "|."
     }
   >>

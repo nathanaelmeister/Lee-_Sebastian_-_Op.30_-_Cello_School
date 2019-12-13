@@ -32,11 +32,31 @@
       f1 \bar "|."           | %20
     }
     \new Staff = "celloII" \with { midiInstrument = #"cello" }
-    \relative c {
+    \relative c, {
       \clef bass
       \key f \major
       \time 4/4
 
+      R1                | %01
+      f2 g8 a bes b     | %02
+      c4 bes a f        | %03
+      c e8 g c bes a g  | %04
+      fis2 r            | %05
+      g a8 bes c cis    | %06
+      d4 c b g          | %07
+      c c' b8 c g e     | %08
+      c2 r              | %09
+      d2 g8 f e f       | %10
+      e2 r              | %11
+      f r               | %12
+      bes,2 bes'8 a g f | %13
+      e2 r              | %14
+      a,2 a'8 g f e     | %15
+      d2 r              | %16
+      g,2 g'8 f e d     | %17
+      c2( bes)          | %18
+      a4 f a c          | %19
+      <a f' >1          | %20
       \bar  "|."
     }
   >>

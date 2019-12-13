@@ -36,6 +36,24 @@
       \key bes \major
       \time 4/4
 
+      r4 d r bes             | %01
+      r g r es               | %02
+      r a r es'              | %03
+      d8 bes' a g f es d cis | %04
+      r4 d r bes             | %05
+      r g r es               | %06
+      r8 d'' c bes a g es a, | %07
+      bes4 f'8 d bes4 r      | %08
+      r c r a                | %09
+      c8 f a g f es d cis    | %10
+      r4 d r bes             | %11
+      d8 f bes a g f es d    | %12
+      r4 c r a               | %13
+      c8 f a g f es d cis    | %14
+      r4 d r bes             | %15
+      r g r es               | %16
+      r8 d'' c bes a g es a, | %17
+      bes4 f'8 d bes4 r      | %18
       \bar  "|."
     }
   >>
